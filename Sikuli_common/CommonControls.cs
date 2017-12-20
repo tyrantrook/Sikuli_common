@@ -148,11 +148,9 @@
         {
             return 36006;
         }
-
         #endregion Exporter Column Picker/Flag Picker
 
         #region Misc
-
         private static string DesignBar()
         {
             return "[CLASS:ToolbarWindow32; INSTANCE:2]";
@@ -162,11 +160,9 @@
         {
             return 4;
         }
-
         #endregion Misc
 
         #region Return Codes
-
         //  Return code for function failure
         private static int FAILURE()
         {
@@ -178,7 +174,6 @@
         {
             return 0;
         }
-
         #endregion Return Codes
 
         #region Window Names
@@ -286,7 +281,6 @@
         {
             return "Overwrite Future Patches";
         }
-
         #endregion Window Names
 
         #region Setup for use in _PerformActionWithRetry($WindowActivateAndRetry)
@@ -329,7 +323,6 @@
         //private static int[] ArgsSpellScriptTypeWarningWindow[0] () { return  $SpellScriptTypeWarningWindow
         //private static int[] ArgsSkillLineAbility[0] () { return  $SkillLineAbilityWindow
         //private static int[] ArgsSkillLineRaceClass[0] () { return  $SkillLineRaceClassWindow
-
         #endregion Setup for use in _PerformActionWithRetry($WindowActivateAndRetry)
 
         #region Setup for use in _PerformActionWithRetry($WindowActivateAndRetry2)
@@ -337,7 +330,6 @@
         private static int[] ArgsWoWSchema2_99 = { 2 };
         //private static int[] ArgsWoWSchema2_99 = [0]() { return  $WoWMainWindowSchema99
         //private static int[] ArgsWoWSchema2_99[1]() { return  59648 }
-
         #endregion Setup for use in _PerformActionWithRetry($WindowActivateAndRetry2)
 
         #region User Credentials
@@ -349,7 +341,6 @@
         {
             return Uninit();
         }
-
         #endregion User Credentials
 
         #region Build Path Data
